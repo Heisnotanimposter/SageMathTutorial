@@ -1,0 +1,71 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "9cpiCexjCo-v"
+      },
+      "outputs": [],
+      "source": [
+        "<!DOCTYPE html>\n",
+        "<html lang=\"en\">\n",
+        "<head>\n",
+        "    <meta charset=\"UTF-8\">\n",
+        "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n",
+        "    <title>Matrix Operations</title>\n",
+        "</head>\n",
+        "<body>\n",
+        "    <h1>Matrix Operations</h1>\n",
+        "    <h2>Matrix A</h2>\n",
+        "    <table>\n",
+        "        {% for row in A %}\n",
+        "        <tr>\n",
+        "            {% for value in row %}\n",
+        "            <td>{{ value }}</td>\n",
+        "            {% endfor %}\n",
+        "        </tr>\n",
+        "        {% endfor %}\n",
+        "    </table>\n",
+        "\n",
+        "    <h2>Diagonal Matrix D</h2>\n",
+        "    <table>\n",
+        "        {% for row in D %}\n",
+        "        <tr>\n",
+        "            {% for value in row %}\n",
+        "            <td>{{ value }}</td>\n",
+        "            {% endfor %}\n",
+        "        </tr>\n",
+        "        {% endfor %}\n",
+        "    </table>\n",
+        "\n",
+        "    <h2>Result (A * D)</h2>\n",
+        "    <table>\n",
+        "        {% for row in result %}\n",
+        "        <tr>\n",
+        "            {% for value in row %}\n",
+        "            <td>{{ value }}</td>\n",
+        "            {% endfor %}\n",
+        "        </tr>\n",
+        "        {% endfor %}\n",
+        "    </table>\n",
+        "</body>\n",
+        "</html>\n"
+      ]
+    }
+  ]
+}
