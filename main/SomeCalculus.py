@@ -1,4 +1,4 @@
-#pip install ipywidgets
+!pip install ipywidgets
 
 
 import matplotlib.pyplot as plt
